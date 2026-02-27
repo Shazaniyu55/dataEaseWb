@@ -4,17 +4,17 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: 'LaslesVPN',
-  siteName: 'LaslesVPN',
+  title: 'DataEase',
+  siteName: 'DataEase',
   description:
-    'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
+    'DataEase For Cheap affordable Airtime, Data Bundle and Utility Bills,
   // change base url of your web (without '/' at the end)
-  url: 'https://themewagon.com/themes/LaslesVPN-nextjs',
+  url: '',
   type: 'website',
   robots: 'follow, index',
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status 
-  image: 'https://themewagon.com/themes/LaslesVPN-nextjs/assets/card-image.png',
+  image: '',
   author: 'Lorem Ipsum'
 };
 
@@ -102,82 +102,56 @@ const SeoHead = (props) => {
 const favicons = [
   {
     rel: 'apple-touch-icon',
-    sizes: '57x57',
-    href: '/favicon/apple-icon-57x57.png',
+    sizes: '36x36',
+    href: '/favicon/android-icon-36x36.png',
   },
   {
     rel: 'apple-touch-icon',
-    sizes: '60x60',
-    href: '/favicon/apple-icon-60x60.png',
+    sizes: '36x36',
+    href: '/favicon/android-icon-36x36.png',
   },
   {
     rel: 'apple-touch-icon',
-    sizes: '72x72',
-    href: '/favicon/apple-icon-72x72.png',
+    sizes: '36x36',
+    href: '/favicon/android-icon-36x36.png',
   },
   {
     rel: 'apple-touch-icon',
-    sizes: '76x76',
-    href: '/favicon/apple-icon-76x76.png',
+    sizes: '36x36',
+    href: '/favicon/android-icon-36x36.png',
   },
   {
     rel: 'apple-touch-icon',
-    sizes: '114x114',
-    href: '/favicon/apple-icon-114x114.png',
+    sizes: '36x36',
+    href: '/favicon/android-icon-36x36.png',
   },
   {
     rel: 'apple-touch-icon',
-    sizes: '120x120',
-    href: '/favicon/apple-icon-120x120.png',
+    sizes: '36x36',
+    href: '/favicon/android-icon-36x36.png',
   },
   {
     rel: 'apple-touch-icon',
-    sizes: '144x144',
-    href: '/favicon/apple-icon-144x144.png',
+    sizes: '36x36',
+    href: '/favicon/android-icon-36x36.png',
   },
   {
     rel: 'apple-touch-icon',
-    sizes: '152x152',
-    href: '/favicon/apple-icon-152x152.png',
+    sizes: '36x36',
+    href: '/favicon/android-icon-36x36.png',
   },
   {
     rel: 'apple-touch-icon',
-    sizes: '180x180',
-    href: '/favicon/apple-icon-180x180.png',
+    sizes: '36x36',
+    href: '/favicon/android-icon-36x36.png',
   },
-  {
-    rel: 'mask-icon',
-    href: '/favicon/safari-pinned-tab.svg',
-    color: '#F59A9A',
-  },
+  
   {
     rel: 'icon',
     href: '/favicon/favicon.ico',
   },
-  {
-    rel: 'icon',
-    type: 'image/png',
-    sizes: '16x16',
-    href: '/favicon/favicon-16x16.png',
-  },
-  {
-    rel: 'icon',
-    type: 'image/png',
-    sizes: '32x32',
-    href: '/favicon/favicon-32x32.png',
-  },
-  {
-    rel: 'icon',
-    type: 'image/png',
-    sizes: '96x96',
-    href: '/favicon/favicon-96x96.png',
-  },
-  {
-    rel: 'icon',
-    type: 'image/png',
-    sizes: '192x192',
-    href: '/favicon/android-icon-192x192.png',
-  },
+  
+  
   {
     rel: 'manifest',
     href: '/site.webmanifest',
