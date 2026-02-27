@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 const defaultMeta = {
   title: 'DataEase',
   siteName: 'DataEase',
-  description:'DataEase For Cheap affordable Airtime, Data Bundle and Utility Bills,
+  description:'DataEase For Cheap affordable Airtime, Data Bundle and Utility Bills',
   // change base url of your web (without '/' at the end)
   url: '',
   type: 'website',
