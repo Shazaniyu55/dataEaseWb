@@ -4,6 +4,7 @@ import ButtonPrimary from "./misc/ButtonPrimary";
 import {motion} from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import Link from "next/link";
 
 const Hero = ({
   listUser = [
@@ -42,7 +43,9 @@ const Hero = ({
               <p className="text-black-500 mt-4 mb-6">
                 We offer cheap and affordable bill payment solutions for everyone. We are always ready to help you with any problems you may have.
               </p>
-              <ButtonPrimary>Get Started</ButtonPrimary>
+              <Link href="https://data-ease-wb.vercel.app/">
+                <ButtonPrimary>Get Started</ButtonPrimary>
+              </Link>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
