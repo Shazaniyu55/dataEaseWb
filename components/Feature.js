@@ -5,10 +5,13 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
+  "Secure Wallet",
   "Powerfull online protection.",
-  "Internet without borders.",
-  "Supercharged VPN",
-  "No specific time limits."
+  "Unlimited Transactions with zero fees.",
+  "Good utility payments",
+  "vendor connectivity",
+  "Fast and cheap Airtime Recharge.",
+  "Get sure betting odds"
 ]
 
 const Feature = () => {
