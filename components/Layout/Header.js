@@ -105,6 +105,7 @@ const Header = () => {
                   Sign In
               </a>
             </Link>
+            
             <ButtonOutline>Sign Up</ButtonOutline>
           </div>
         </nav>
