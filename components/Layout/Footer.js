@@ -2,7 +2,7 @@ import React from "react";
 import LogoVPN from "../../public/assets/datalogo.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
-import Instagram from "../../public/assets/Icon/instagram.svg";
+import Link from "next/link";
 const Footer = () => {
   return (
     <div className="bg-white-300 pt-44 pb-24">
@@ -74,7 +74,9 @@ const Footer = () => {
           <p className="text-black-600 mb-4 font-medium text-lg">Earn Money</p>
           <ul className="text-black-500">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Affiliate{" "}
+              <Link href="/signup" >
+              Affiliate
+              </Link>
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
               Become Partner{" "}

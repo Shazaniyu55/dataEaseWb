@@ -40,6 +40,9 @@ module.exports = {
         400: "#AFB5C0",
         500: "#DDDDDD",
       },
+      red:{
+        500: "#FF0000",
+      }
     },
     extend: {},
   },

@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link"
-
 const ButtonPrimary = ({ children, addClass }) => {
   return (
     <button
@@ -9,66 +8,10 @@ const ButtonPrimary = ({ children, addClass }) => {
         addClass
       }
     >
-      <Link href="https://data-ease-web.vercel.app/
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      ">
+     <Link href="https://data-ease-web.vercel.app/">
       {children}
-
       </Link>
+
     </button>
   );
 };
