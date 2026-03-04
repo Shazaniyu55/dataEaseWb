@@ -43,7 +43,11 @@ const Hero = ({
               <p className="text-black-500 mt-4 mb-6">
                 We offer cheap and affordable bill payment solutions for everyone. We are always ready to help you with any problems you may have.
               </p>
-                <ButtonPrimary>Get Started</ButtonPrimary>
+                <ButtonPrimary>
+                  <Link href="https://dataease-app.vercel.app/">
+                  Get Started
+                  </Link>
+                  </ButtonPrimary>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
